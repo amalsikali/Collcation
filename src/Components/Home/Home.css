@@ -1,0 +1,117 @@
+.searchContainer {
+  height: 500px;
+  width: 100%;
+  background-image: url("https://data.1freewallpapers.com/download/interior-design-room-house-home-apartment-condo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  background: #f2f2f2;
+  font-family: "Open Sans", sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00b4cc;
+  border-right: none;
+  padding: 5px;
+  height: 50px;
+  border-radius: 30px 0 0 30px;
+  outline: none;
+  color: #9dbfaf;
+}
+
+.searchTerm:focus {
+  color: #00b4cc;
+}
+
+.searchButton {
+  width: 70px;
+  height: 50px;
+  border: 1px solid #00b4cc;
+  background: #00b4cc;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 30px 30px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap {
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.infoContainer {
+  padding: 40px 50px 40px 50px;
+  text-align: center;
+}
+.infoTitle {
+  color: #435063;
+}
+.InfoContent {
+  text-align: justify;
+  font-size: 0.8em;
+  line-height: 20px;
+  color: #0e1f18;
+}
+.cardContainer {
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  height: 160px;
+  width: 250px;
+  margin: 10px;
+  cursor: pointer;
+}
+.cardContainer img {
+  border-radius: 10px;
+}
+.cardContainer:hover {
+  transition: 0.5s;
+  box-shadow: 0px 0px 10px gray;
+}
+.cardText {
+  color: white;
+  text-align: center;
+  font-size: 1.3em;
+}
+.col-md-8 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  justify-content: center;
+}
+.shareFb {
+  border-radius: 5px;
+  background-color: #4c66a4;
+  color: white !important;
+  cursor: pointer;
+  font-size: 0.9em;
+  border-width: 1px;
+  border-color: #4c66a4;
+  padding: 5px;
+}
+.shareFb:hover {
+}
+.shareGoogle {
+  border-radius: 5px;
+  background-color: #ea4335;
+  color: white !important;
+  cursor: pointer;
+  font-size: 0.9em;
+  border-width: 1px;
+  border-color: #ea4335;
+  padding: 5px;
+}

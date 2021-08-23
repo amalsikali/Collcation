@@ -1,0 +1,27 @@
+.loginContainer {
+  width: 450px;
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 50px 50px 50px 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.body {
+  background-color: #f1f1f1;
+}
+
+.btn-google {
+  color: white !important;
+  background-color: #ea4335;
+}
+
+.btn-facebook {
+  color: white !important;
+  background-color: #3b5998;
+}
